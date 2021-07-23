@@ -1,0 +1,17 @@
+body
+{
+	border:3px solid grey;
+	border-radius:5px;
+}
+li
+{
+	margin-top:3px;
+}
+a
+{
+	margin-left:10px;
+}
+center
+{
+	color:maroon;
+}

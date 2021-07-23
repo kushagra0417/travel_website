@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+      body{
+        background-color: grey;
+      }
+      .act{
+        background: black;
+        padding:5px;
+        }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        background-color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="kb.JPG" style="width:100%">
+      <h1>Kaustubh Begde</h1>
+      <p class="title">Student, SICSR</p>
+      <p>Symbiosis University</p>
+      <form class="act" method="post" action="mailto:junejadivyam@gmail.com" >
+      <input type="submit" value="Send Email" />
+      </form>
+    </div>
+
+  </body>
+</html>

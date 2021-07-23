@@ -1,0 +1,19 @@
+body
+{
+	border:3px solid grey;
+	border-radius:5px;
+}
+img
+{
+	border:3px solid grey;
+	border-radius:5px;
+	padding:3px;
+}
+h2
+{
+	color:maroon;
+}
+marquee
+{
+	color:maroon;
+}

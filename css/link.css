@@ -1,0 +1,69 @@
+body
+{
+border:3px solid black;
+margin-top:20px;
+background-image:url("images/background4.png");
+border-radius:25px;
+}
+h1
+{
+background-image:url("images/background2.png");
+display:inline-block;
+color:white;
+text-transform:uppercase;
+border-radius:50px;
+}
+a.t
+{
+background-image:url("images/background2.png");
+color:white;
+padding:3px 2px;/* syntax padding: widhth hight*/
+text-decoration:none;
+text-transform:uppercase;
+border-radius:50px;
+}
+a.t1
+{
+background-image:url("images/background2.png");
+color:white;
+padding:3px 2px;/* syntax padding: widhth hight*/
+text-decoration:none;
+text-transform:uppercase;
+border-radius:50px;
+}
+a.t2
+{
+background-image:url("images/background2.png");
+color:white;
+padding:3px 2px;/* syntax padding: widhth hight*/
+text-decoration:none;
+text-transform:uppercase;
+border-radius:50px;
+}
+a.t3
+{
+background-image:url("images/background2.png");
+color:white;
+padding:3px 2px;/* syntax padding: widhth hight*/
+text-decoration:none;
+text-transform:uppercase;
+border-radius:50px;
+}
+a.t4
+{
+background-image:url("images/background2.png");
+color:white;
+padding:3px 2px;/* syntax padding: widhth hight*/
+text-decoration:none;
+text-transform:uppercase;
+border-radius:50px;
+}
+a.t5
+{
+background-image:url("images/background2.png");
+color:white;
+padding:3px 2px;/* syntax padding: widhth hight*/
+text-decoration:none;
+text-transform:uppercase;
+border-radius:50px;
+}

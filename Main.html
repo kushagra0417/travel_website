@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <title>World Of Tourers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+  <div class="navbar">
+    <a href="register.html">Login</a>
+    <a href="#main">Why a Travel Advisor?</a>
+    <a href="7 wonders Structure.html">7 Wonders of the world</a>
+    <a href="india.html">India Tour</a>
+    <a href="1.html">Travel Tips</a>
+    <div class="tit"><img src="images/WOT.JPG" height="50px" width="200px"></div>
+  </div>
+  <section>
+    <img class="mySlides" src="images/1.JPG"
+    style="width:100%; height:90%">
+    <img class="mySlides" src="images/2.jpg"
+    style="width:100%; height:90%">
+    <img class="mySlides" src="images/3.jpg"
+    style="width:100%; height:90%">
+    <img class="mySlides" src="images/4.png"
+    style="width:100%; height:90%">
+  </section>
+  <div class="header">
+    <h1>World of Tourers</h1>
+  </div>
+<div class="row">
+  <div class="side">
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a><br>
+    <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+  </div>
+  <div class="main" id="main">
+    <h2>Why use a Travel Advisor?</h2>
+    <div><img src="images/travel.JPEG" width="900px" height="600px"></div>
+    <p>Planning a trip today can be confusing and time consuming. A travel advisor not only arranges the various modes of transportation, but a travel agent also may be able to save you money with early booking discounts, special fares, hotel deals and travel agenties. Don’t take our word for it. See what the president of Crystal Cruises has to say about using a travel advisor.
+    <h2>Benefits of Using a Travel Advisor</h2>
+    <div><img src="images/road.jpg"></div>
+    <p><h2>Time and Money Savings</h2><br>
+    Sometimes, spending hours on the computer searching for the best travel deals gets you results -- and other times, it just leads to frustration. When you work with a travel agent, she does that legwork, searching out the travel options that best meet your needs and budget. In most cases, travel agents have access to information about rates and routes that average consumer might not have, saving you time and money, even when you consider the agent's fee. Using a travel agent can also help you score a great deal on a package or promotion. Agents generally receive information and access to promotions from resorts, cruise lines and other travel providers that aren't available to the general public.
+
+    <br><h2>Travel Assistance</h2><br>
+    You're en route to a Caribbean cruise a when a snowstorm in Detroit delays your flight in Philadelphia. If you booked your travel through an agent, you can call him to get assistance with rebooking your travel arrangements. When you book through an online travel site, you might not be able to get that level of personalized attention, or you could have trouble finding someone who can help you get where you need to be. If something goes wrong when you arrive at your destination, such as your room is unacceptable or the transportation to the resort never shows up, your travel agent can usually resolve those problems.
+
+    <br><h2>Travel Recommendations</h2><br>
+    Perhaps you've always wanted to take a cruise, but you're not sure which cruise line is best for you or where you want to go. Maybe you want to take the kids to Disney World, but you're having trouble navigating the endless array of ticket and package options. A travel agent can help. Many travel agents specialize in a particular type of travel, such as cruises, Disney or Europe, and are able to make recommendations and help you plan a trip that meets your needs and budget. Their inside knowledge helps you avoid wasting time and money on the things you're not interested in, and lets you focus instead on taking the trip.
+
+    <br><h2>Perks</h2><br>
+    Travel agents who book a high volume of trips often have access to perks that you might not be able to get on your own. Whether it's a room upgrade, a fee waiver or even reservations at a hot resort or on a popular tour, travel agents often add perks into your vacation plan. If you are planning a trip for a special occasion, such as a marriage proposal, a travel agent has access to the resources and people who can help you plan the perfect event.</p>  </div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+<div class="footer">
+  <h2><a href="mk1.html" target="_blank">Designers of the Website</h2>
+  <a href="#top">Top</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body
+{
+border:3px solid black;
+margin-top:20px;
+background-image:url("images/background10.png");
+border-radius:25px;
+}
+h1
+{
+text-decoration:underline;
+display:inline-block;
+color:RGB(23, 32, 42);
+text-transform:uppercase;
+}
+pre
+{
+margin:75px;
+color:RGB(234, 236, 238);
+background-color:black;
+border-radius:25px;
+}
+div.a
+{
+text-decoration:underline;
+display:inline-block;
+color:RGB(234, 236, 238);
+text-transform:uppercase;
+}
+div.b
+{
+text-decoration:underline;
+display:inline-block;
+color:RGB(234, 236, 238);
+text-transform:uppercase;
+}
+div.c
+{
+text-decoration:underline;
+display:inline-block;
+color:RGB(234, 236, 238);
+text-transform:uppercase;
+}
+div.d
+{
+text-decoration:underline;
+display:inline-block;
+color:RGB(234, 236, 238);
+text-transform:uppercase;
+}
